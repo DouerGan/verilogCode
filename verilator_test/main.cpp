@@ -41,8 +41,8 @@ int main(int argc , char *argv[])
         }
         top->eval();
         tfp->dump(contextp->time());
-        VL_PRINTF("[%" PRId64 "] clk=%x rst=%x i_a=%x i_b=%x out=%x \n",
-        contextp->time(), top->i_clk, top->i_rst, top->i_a, top->i_b, top->o_f);
+        //VL_PRINTF("[%" PRId64 "] clk=%x rst=%x i_a=%x i_b=%x out=%x \n",
+        //contextp->time(), top->i_clk, top->i_rst, top->i_a, top->i_b, top->o_f);
     }
     top->final();
     tfp->close();
